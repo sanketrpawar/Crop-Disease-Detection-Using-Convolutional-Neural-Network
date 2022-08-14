@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_show"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="News" />
+
+    <item
+        android:id="@+id/navigation_test"
+        android:icon="@drawable/ic_restaurant_menu_black_24dp"
+        android:title="Testing" />
+    <item
+        android:id="@+id/nav_crop"
+        android:icon="@drawable/ic_receipt_black_24dp"
+        android:title="crop recommendation" />
+
+</menu>

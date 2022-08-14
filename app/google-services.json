@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "862341679181",
+    "firebase_url": "https://plantdisease20221-default-rtdb.firebaseio.com",
+    "project_id": "plantdisease20221",
+    "storage_bucket": "plantdisease20221.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862341679181:android:eb292b0a3ad71167d9b404",
+        "android_client_info": {
+          "package_name": "com.example.plantdiseaseimage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862341679181-6r4o2pbp18ev5m0l1o19nvjcuc0o2r50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIbvVUYaZAa6yCSuOVi2ftyMd7CiDulp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862341679181-6r4o2pbp18ev5m0l1o19nvjcuc0o2r50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

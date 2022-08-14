@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".creatCat"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Testing"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:id="@+id/ShowImageView"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonChooseImage"
+        android:layout_marginTop="20dp"
+        android:text="Choose Image for Training"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etdisease"
+        android:layout_below="@+id/ButtonChooseImage"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Disease name"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/ButtonUploadImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Extract Features" />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_margin="10dp"
+       android:layout_weight="1"
+       >
+
+       <Button
+           android:layout_marginLeft="20dp"
+           android:id="@+id/btclassify"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.5"
+           android:text="Predict Disease"/>
+
+   </LinearLayout>
+    <TextView
+        android:id="@+id/txtresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:text="......"
+        />
+
+
+</LinearLayout>

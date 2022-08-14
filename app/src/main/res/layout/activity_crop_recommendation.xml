@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CropRecommendationActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crop Recommendation"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_green_light"
+        ></TextView>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Nitrogen(N)"
+            android:inputType="numberDecimal"
+            android:layout_margin="10dp"
+           />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter phosphorus(P)"
+            android:layout_margin="10dp"
+            android:inputType="numberDecimal"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter potassium (K)"
+            android:layout_margin="10dp"
+            android:inputType="numberDecimal"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter temperature"
+            android:layout_margin="10dp"
+            android:inputType="numberDecimal"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter humidity in %"
+            android:layout_margin="10dp"
+            android:inputType="numberDecimal"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter PH"
+            android:layout_margin="10dp"
+            android:inputType="numberDecimal"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter rainfall in MM"
+            android:layout_margin="10dp"
+            android:inputType="numberDecimal"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Predict"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:id="@+id/txtres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AI Prediction"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_green_light"
+            android:layout_margin="10dp"
+            />
+
+
+
+</LinearLayout>
+</ScrollView>
