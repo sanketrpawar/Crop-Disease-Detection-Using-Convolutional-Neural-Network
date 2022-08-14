@@ -42,7 +42,6 @@ public class ShowListFarmer extends AppCompatActivity {
 
     // Creating List of ImageUploadInfo class.
 
-
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
